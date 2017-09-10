@@ -1,18 +1,33 @@
-;;; nyx-theme.el --- Theme
+;;; nyx-theme.el --- Dark theme
 
-;; Copyright (C) 2017, Guido Schmidt
+;; Copyright (C) 2017 Guido Schmidt
 
 ;; Author: Guido Schmidt
-;; Version: 0.0.1
+;; Maintainer: Guido Schmidt <guido.schmidt.2912@gmail.com>
+;; URL: https://github.com/GuidoSchmidt/emacs-nyx-theme
+;; Version: 0.1
+;; Keywords: themes, dark-theme
 ;; Package-Requires: ((emacs "24"))
 
+;; This file is part of GNU Emacs.
 
-;; This file is not part of Emacs.
+;; GNU Emacs is free software: you can redistribute it and/or modify
+;; it under the terms of the GNU General Public License as published by
+;; the Free Software Foundation, either version 3 of the License, or
+;; (at your option) any later version.
+
+;; GNU Emacs is distributed in the hope that it will be useful,
+;; but WITHOUT ANY WARRANTY; without even the implied warranty of
+;; MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+;; GNU General Public License for more details.
+
+;; You should have received a copy of the GNU General Public License
+;; along with GNU Emacs.  If not, see <http://www.gnu.org/licenses/>.
 
 ;;; Commentary:
+;; Theme created with the help of `https://github.com/mswift42/themecreator'
 
 ;;; Code:
-
 (deftheme nyx)
 (let ((class '((class color) (min-colors 89)))
       (bg1      "#000000")
